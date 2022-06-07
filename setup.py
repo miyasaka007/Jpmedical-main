@@ -8,7 +8,7 @@ setuptools.setup(
     version="0.0.2",
     author="naoto miyasaka",
     author_email="s2022064@stu.musashino-u.ac.jp",
-    description='A package for visualization of total of amount of gavage, if people all over the world are Japnanese"',
+    description='A package for visualization of total of Health expenditures, if people all over the world are Japnanese"',
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/miyasaka007/jpmedical-main",
@@ -21,7 +21,7 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     package_dir={"": "src"},
-    py_modules=['jptrash'],
+    py_modules=['jpmedical'],
     packages=setuptools.find_packages(where="src"),
     python_requires=">=3.7",
     entry_points = {
