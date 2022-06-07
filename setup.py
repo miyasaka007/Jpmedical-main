@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="trash",
+    name="jpmedical",
     version="0.0.2",
     author="naoto miyasaka",
     author_email="s2022064@stu.musashino-u.ac.jp",
