@@ -11,9 +11,9 @@ setuptools.setup(
     description='A package for visualization of total of amount of gavage, if people all over the world are Japnanese"',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/plumchloride/kotonohatango-getter",
+    url="https://github.com/miyasaka007/jpmedical-main",
     project_urls={
-        "Bug Tracker": "https://github.com/plumchloride/kotonohatango-getter",
+        "Bug Tracker": "https://github.com/miyasaka007/jpmedical-main",
     },
     classifiers=[
         "Programming Language :: Python :: 3",
@@ -26,7 +26,7 @@ setuptools.setup(
     python_requires=">=3.7",
     entry_points = {
         'console_scripts': [
-            'kotonohagetter = kotonohagetter:main'
+            'jpmedical = jpmedical:main'
         ]
     },
 )
